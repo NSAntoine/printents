@@ -1,7 +1,7 @@
 # printents
 
 A CommandLine tool that prints the entitlements of an .app bundle or any executable on device, demonstrating the AppSandbox private framework.
-usage: `printents <path>`, ie `printents /Application/Safari.app` or `printents /usr/libexec/locationd`
+usage: `printents <path>`, ie `printents /Application/Safari.app` or `printents /usr/libexec/locationd --format json`
 
 ## Compiling
 To compile, run `clang main.m -F/System/Library/PrivateFrameworks -framework AppSandbox -framework Foundation -fobjc-arc`
